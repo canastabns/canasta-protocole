@@ -1,0 +1,23 @@
+node_modules
+_build
+_static
+_templates
+
+.DS_Store
+
+# Compiled contract ABIs and binaries
+build/contracts/*
+
+# Jetbrains editos
+.idea
+
+.env
+
+ganache-wallet.js
+
+repositories/*.json
+
+scripts/migration-start-testnet.sh
+scripts/verify-test.js
+
+test.js
